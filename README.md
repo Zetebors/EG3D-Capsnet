@@ -1,5 +1,5 @@
 [readme.txt](https://github.com/user-attachments/files/22057004/readme.txt)
-The 新EG3D.ipynb is our model.
+The 新EG3D(1).ipynb is our model.
 The .ipynb files are used by JupyterLab.
 For multimodal data, please run multimodal.ipynb; for unimodal (MRI image) data, use non-multimodal.ipynb.
 
@@ -26,5 +26,7 @@ final_model_path = f"{CUSTOM_PREFIX}_fold{fold}_last.pth"
 kf: Stratified k-fold cross-validation.
 
 The paths in all_cases are the data paths.
+
+dataset.py is for multimodal and Fdataset.py is for non-multimodal.
 
 The package installation command is as follows: pip install scipy torchio nibabel numpy torch scikit-learn tensorboard torchvision matplotlib scikit-image
